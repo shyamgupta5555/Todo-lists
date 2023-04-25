@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
 import { Todo } from './component/todo'
 function App() {
 
   return (
     <>
-      <Todo/>
+    <Todo/>
     </>
   )
 }

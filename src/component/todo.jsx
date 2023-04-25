@@ -52,7 +52,7 @@ export function Todo() {
             setActivity(e.target.value);
           }}
         />
-        <button onClick={addActivity} >add </button>
+        <button className="add" onClick={addActivity} >+</button>
         
 
         </div>
